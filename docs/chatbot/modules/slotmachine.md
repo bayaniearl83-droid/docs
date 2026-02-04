@@ -2,7 +2,7 @@
 id: slotmachine
 sidebar_label: "Slotmachine"
 description: "Set up and customize the StreamElements Chatbot Slotmachine module. Engage viewers with a virtual slot machine game for wagering points."
-keywords:
+keywords:!gamble
 - StreamElements Chatbot Slotmachine
 - Twitch chat game
 - virtual gambling for streams
@@ -29,12 +29,12 @@ To start a game, viewers use the `!slots` command followed by the number of poin
 
 1. Wager 100 points:
    ```
-   !slots 100
+   !gamble 100
    ```
 
 2. Wager 50% of total points:
    ```
-   !slots 50%
+   !gamble 50%
    ```
 
 ## Parameters
@@ -47,7 +47,7 @@ To start a game, viewers use the `!slots` command followed by the number of poin
 
 ## Related Commands
 
-- [`!slots`](../commands/default/slots.mdx): Initiates the slot machine game.
+- [`!gamble`](../commands/default/slots.mdx): Initiates the slot machine game.
 - [`!points`](../commands/default/points.mdx): Check your current point balance
 
 ## Configuration
